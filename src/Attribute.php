@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace ProgPhil1337\PhpHtml;
+namespace ProgPhil1337\HTML;
 
 /**
  * Attribute
  *
- * @package ProgPhil1337\PhpHtml
+ * @package ProgPhil1337\HTML
  * @author Philipp Lohmann <lohmann.philipp@gmx.net>
  */
 class Attribute

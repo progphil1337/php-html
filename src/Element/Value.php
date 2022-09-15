@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace ProgPhil1337\PhpHtml\Element;
+namespace ProgPhil1337\HTML\Element;
 
-use ProgPhil1337\PhpHtml\Element;
+use ProgPhil1337\HTML\Element;
 
 /**
  * Value
  *
- * @package ProgPhil1337\PhpHtml
+ * @package ProgPhil1337\HTML
  * @author Philipp Lohmann <lohmann.philipp@gmx.net>
  */
 final class Value extends Element

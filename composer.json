@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ProgPhil1337\\PhpHtml\\": "src/"
+            "ProgPhil1337\\HTML\\": "src/"
         }
     }
 }

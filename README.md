@@ -10,7 +10,7 @@ $ composer require progphil1337/php-html
 
 ## Compatibility
 
-`ProgPhil1337\PhpHtml` requires PHP 8.1 (or better).
+`ProgPhil1337\HTML` requires PHP 8.1 (or better).
 
 ## Usage
 
@@ -18,8 +18,8 @@ $ composer require progphil1337/php-html
 ### Basic example
 
 ```php
-use ProgPhil1337\PhpHtml\Attribute\Style;
-use ProgPhil1337\PhpHtml\Element;
+use ProgPhil1337\HTML\Attribute\Style;
+use ProgPhil1337\HTML\Element;
 
 $html = new Element('html');
 

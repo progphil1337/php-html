@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace ProgPhil1337\PhpHtml;
+namespace ProgPhil1337\HTML;
 
-use ProgPhil1337\PhpHtml\Element\Value;
+use ProgPhil1337\HTML\Element\Value;
 use RuntimeException;
 
 /**
  * Element
  *
- * @package ProgPhil1337\PhpHtml
+ * @package ProgPhil1337\HTML
  * @author Philipp Lohmann <lohmann.philipp@gmx.net>
  */
 class Element
@@ -31,7 +31,7 @@ class Element
     }
 
     /**
-     * @param \ProgPhil1337\PhpHtml\Attribute $attribute
+     * @param \ProgPhil1337\HTML\Attribute $attribute
      * @return $this
      */
     public function addAttribute(Attribute $attribute): self
@@ -53,7 +53,7 @@ class Element
     }
 
     /**
-     * @param \ProgPhil1337\PhpHtml\Attribute $attribute
+     * @param \ProgPhil1337\HTML\Attribute $attribute
      * @return $this
      */
     public function removeAttribute(Attribute $attribute): self
@@ -64,7 +64,7 @@ class Element
     }
 
     /**
-     * @param \ProgPhil1337\PhpHtml\Element $e
+     * @param \ProgPhil1337\HTML\Element $e
      * @return $this
      */
     public function addElement(Element $e): self
@@ -79,7 +79,7 @@ class Element
     }
 
     /**
-     * @param \ProgPhil1337\PhpHtml\Element $removedElement
+     * @param \ProgPhil1337\HTML\Element $removedElement
      * @return $this
      */
     public function removeElement(Element $removedElement): self
@@ -94,7 +94,7 @@ class Element
     }
 
     /**
-     * @param \ProgPhil1337\PhpHtml\Element|\ProgPhil1337\PhpHtml\Attribute $o
+     * @param \ProgPhil1337\HTML\Element|\ProgPhil1337\HTML\Attribute $o
      * @return $this
      */
     public function add(Element|Attribute $o): self
@@ -103,7 +103,7 @@ class Element
     }
 
     /**
-     * @param \ProgPhil1337\PhpHtml\Element|\ProgPhil1337\PhpHtml\Attribute $o
+     * @param \ProgPhil1337\HTML\Element|\ProgPhil1337\HTML\Attribute $o
      * @return $this
      */
     public function remove(Element|Attribute $o): self
